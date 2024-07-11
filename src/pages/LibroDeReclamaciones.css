@@ -1,0 +1,67 @@
+.libro-de-reclamaciones {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 28px;
+    color: #333;
+    letter-spacing: 2px; /* Ajusta el espaciado entre letras */
+    margin-bottom: 20px;
+}
+
+
+.header p {
+    font-size: 16px;
+    color: #666;
+}
+
+.content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.reclamacion, .respuesta {
+    margin-bottom: 20px;
+}
+
+.reclamacion h2, .respuesta h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.reclamacion p, .respuesta p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    margin-top: 20px;
+}
+
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

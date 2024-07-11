@@ -1,0 +1,60 @@
+/* Estilos para el navbar */
+.navbar {
+  background-color: #7c5652; /* Color de fondo del navbar */
+  box-shadow: 0 2px 4px rgb(232, 232, 232); /* Sombra del navbar */
+}
+
+.navbar-brand {
+  font-weight: bold; /* Texto de la marca en negrita */
+  color: #ffffff; /* Color del texto */
+  font-size: 24px; /* Tamaño de la fuente */
+}
+
+.navbar-nav .nav-item {
+  margin-right: 10px; /* Espacio entre elementos del navbar */
+}
+
+.nav-link {
+  color: #ffffff !important; /* Color del texto de los enlaces */
+  font-size: 16px !important; /* Tamaño de la fuente */
+  font-weight: bold !important; /* Texto en negrita */
+}
+
+.nav-link:hover {
+  color: #007bff !important; /* Color del texto al pasar el mouse */
+}
+
+.logo {
+  width: 140px !important;/* Ancho del logo */
+  height: auto !important; /* Altura automática del logo */
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Iconos dentro de los enlaces */
+.nav-link i {
+  margin-right: 5px; /* Espacio entre el icono y el texto */
+}
+
+/* Alineación específica de los elementos en el navbar */
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo-container {
+    margin-top: 10px;
+  }
+}

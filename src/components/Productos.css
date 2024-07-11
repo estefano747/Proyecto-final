@@ -1,0 +1,76 @@
+.producto {
+    margin-bottom: 30px;
+    position: relative;
+  }
+  
+  .producto .card {
+    border: none;
+    transition: all 0.3s ease;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .producto .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .producto .card-img-top {
+    height: 300px; /* Altura fija para las imágenes */
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .producto .card-body {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 0 0 8px 8px;
+  }
+  
+  .producto .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .producto .card-text {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .precio-anterior {
+    font-size: 0.8em;
+    text-decoration: line-through;
+    color: var(--color-gris-claro);
+    margin-left: 10px;
+  }
+  
+  .porcentaje-descuento {
+    background-color: var(--color5);
+    color: var(--color-blanco);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  
+  .icono-vista-rapida {
+    position: absolute;
+    right: -40px;
+    top: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: var(--color-blanco);
+    padding: 10px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .icono-vista-rapida:hover {
+    right: 0;
+    opacity: 1;
+  }
+  
